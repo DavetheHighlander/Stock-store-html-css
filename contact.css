@@ -1,0 +1,131 @@
+/* value for all */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+h1,
+h2,
+h3,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #585858;
+  color: white;
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 95%;
+  margin: 0px;
+  padding: 0px;
+}
+/* Header and Navigation Bar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+/* här kommer navigering*/
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: medium;
+  float: right;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Section */
+main {
+  max-width: 800px;
+
+  margin: 20px auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #ffffff;
+}
+
+/* contact Section */
+address {
+  margin-top: 20px;
+}
+
+address p {
+  margin-bottom: 10px;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+  height: 5%;
+}
+
+/* form */
+.form {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.form label {
+  margin-bottom: 10px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.form button[type="submit"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

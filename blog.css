@@ -1,0 +1,175 @@
+/*value for all*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #333;
+
+}
+/*header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+}
+/*Navbar*/
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.hero-container {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+.hero-container img {
+  width: 100%;
+  height: 440px;
+
+}
+.content {
+
+  display: flex;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 10px;
+} /* text och foto*/
+
+.content {
+  font-size: 20px;
+  color: #fff;
+  background-color: #333;
+  max-width: 1400px;
+}
+
+.blog-headline {
+  margin: 1rem;
+  
+  background-color: #818181;
+  color: white;
+}
+
+.text-box {
+  width: 60%;
+  float: left;
+  padding: 15px;
+}
+article {
+  background-color: #818181;
+  border-radius: 10px;
+  width: 60%;
+  float: left;
+  flex: 1;
+  text-align: left;
+  margin:10px;
+  padding: 20px;
+
+}
+
+.media-box-img {
+  background-color: #818181;
+  border-radius: 10px;
+
+  float: left;
+  width: 40%;
+  /*height: 30%;*/
+}
+.text-box p{
+  background-color: #818181;
+
+}
+.text-box{
+  background-color: #818181;
+
+}
+.text-box > p {
+  margin-top: 0;
+  padding-top: 0;
+}
+/* aside categories for my blogg buttons*/
+aside {
+  background-color: #818181;
+  width: 20%;
+  margin: 10px;
+  flex: 0 0 30%;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.category-side h2 {
+  background-color: #818181;
+
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.category-side ul {
+  background-color: #818181;
+
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-side ul li {
+  background-color: #818181;
+
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.article-content{
+  margin:20px;
+
+  background-color: #818181;
+}
+.category-side ul li a {
+  background-color: #818181;
+  font-size: 2.0rem;
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.category-side ul li a:hover {
+  color: #007bff;
+}
+
+/* footer*/
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.footer-content {
+  max-width: 960px;
+  margin: 0 auto;
+}
